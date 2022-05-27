@@ -4,7 +4,8 @@ function getHistoryPurchase() {
       type: "Attrazione",
       title: "Piazza San Marco",
       image: "/random.jpeg",
-      localtion:"Venezia, Veneto"
+      localtion:"Venezia, Veneto",
+      cane:"Lupo di mare"
     },
     {
       type: "hotel",
