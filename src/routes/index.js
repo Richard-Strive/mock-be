@@ -4,7 +4,7 @@ const getHistoryPurchase = require("./product.js");
 const route = express.Router();
 
 // PERSONAL PROFILE INFOS
-route.get("/history", (req, res) => {
+route.get("/search", (req, res) => {
   try {
     const product = getHistoryPurchase();
     console.log("This is the product--->",product)
