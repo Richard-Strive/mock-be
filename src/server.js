@@ -9,7 +9,7 @@ server.use(cors());
 
 server.use(express.json());
 
-server.use("/products", productsRouter);
+server.use("/search", productsRouter);
 
 server.listen(process.env.PORT || 5000, () => {
   console.log("The server is successfully started");
